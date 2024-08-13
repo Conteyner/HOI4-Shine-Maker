@@ -97,17 +97,17 @@ class HOI4SHM(tk.Tk):
         }}
         
         animation = {{
-        animationmaskfile = "{texturefile}"
-        animationtexturefile = "{anim_texturefile}"
-        animationrotation = {rotation}
-        animationlooping = {looping}
-        animationtime = {time}
-        animationdelay = {delay}
-        animationblendmode = "{blend_mode}"
-        animationtype = "{animation_type}"
-        animationrotationoffset = {{ x = {rotation_offset_x} y = {rotation_offset_y} }}
-        animationtexturescale = {{ x = {texture_scale_x} y = {texture_scale_y} }}
-    }}
+            animationmaskfile = "{texturefile}"
+            animationtexturefile = "{anim_texturefile}"
+            animationrotation = {rotation}
+            animationlooping = {looping}
+            animationtime = {time}
+            animationdelay = {delay}
+            animationblendmode = "{blend_mode}"
+            animationtype = "{animation_type}"
+            animationrotationoffset = {{ x = {rotation_offset_x} y = {rotation_offset_y} }}
+            animationtexturescale = {{ x = {texture_scale_x} y = {texture_scale_y} }}
+        }}
 
         legacy_lazy_load = no
     }}
